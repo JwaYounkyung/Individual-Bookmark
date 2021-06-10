@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 #device = 'cpu'
 
-url = 'https://www.youtube.com/watch?v=P8jOQUsTU9o'
+url = 'https://www.youtube.com/watch?v=155cI2v1l-s'
 video = pafy.new(url)
 best = video.getbest(preftype='mp4') # Selects the stream with the highest resolution
 
@@ -58,7 +58,7 @@ def extract_face_info(img, box, name, min_dist):
 
     if min_dist < dist_thresh:
         cv2.putText(img, "Face : " + name, (x1, y2 + 30), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0), 2)
-        cv2.putText(img, "Dist : " + str(min_dist), (x1, y2 + 60), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0), 2)
+        # cv2.putText(img, "Dist : " + str(min_dist), (x1, y2 + 60), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0), 2)
     else:
         cv2.putText(img, 'No matching faces', (x1, y2 + 30), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 255), 2)
 
@@ -85,7 +85,7 @@ def recognize_face(img, face, database, network):
 
     return name, min_dist
 
-real_sec = [8,9,10,16,17,18,19,20,21,22,23,24,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,116,117,118,119,126,127,128,129,130,131,132,133,149,150,151,152,153,154,155,156,164,174,175,176,177,178,179,195,196,215,216,217,218,219,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,264,265,266,265,268,269]
+real_sec = [8,9,10,11,17,18,19,20,21,24,28,29,30,31,32,33,34,35,36,37,38,41,42,43,44,45,46,59,60,61,67,68,69,72,73,76,77,111,112,118,119,120,124,125,130,131,136,137,138,139,141,142,143,153,154,156,157,158,159,160,177,178,188,189,190]
 real_frame = list()
 captured_frame = list()
 
@@ -125,10 +125,11 @@ def recognize(member):
             if (faces != None): # 영상에서 얼굴이 잡히지 않을 수도 있음
                 for i, face in enumerate(faces):
                     name, min_dist = recognize_face(img, face, saved_data, resnet)
-                    extract_face_info(img, boxes[i], name, min_dist)
+                    # extract_face_info(img, boxes[i], name, min_dist)
 
                     if(name == member):
                         captured_frame.append(frame)
+                        extract_face_info(img, boxes[i], name, min_dist)
 
             cv2.imshow('Recognizing faces', img) 
             
@@ -145,8 +146,8 @@ def recognize(member):
                 
     sum = 0
         
-    for i in real_frame:
-        if i in captured_frame:
+    for i in real_frame: 
+        if i in captured_frame: 
             sum += 1  
 
     print("Accuracy: {:.2f} % \n".format(((float(sum))/(len(real_frame)))*100))   
@@ -155,4 +156,4 @@ def recognize(member):
     cv2.destroyAllWindows()
 
 
-recognize('chris_martin')
+recognize('eunji')

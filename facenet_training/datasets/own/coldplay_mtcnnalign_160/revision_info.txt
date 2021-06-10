@@ -1,0 +1,7 @@
+arguments: src/align/align_dataset_mtcnn.py datasets/own/raw datasets/own/coldplay_mtcnn --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
+--------------------
+tensorflow version: 1.7.0
+--------------------
+git hash: b''
+--------------------
+b''

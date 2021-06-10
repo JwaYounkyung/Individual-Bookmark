@@ -1,0 +1,434 @@
+test dir: datasets/own/own_mtcnnalign_160/test
+Number of classes: 5
+Number of images: 425
+Loading feature extraction model
+Model filename: src/models/facenet/20180402-114759/20180402-114759.pb
+Calculating features for images
+Testing classifier
+Loaded classifier model from file "src/models/my_classifier.pkl"
+   0  George W Bush: 0.711
+   1  George W Bush: 0.831
+   2  George W Bush: 0.791
+   3  George W Bush: 0.895
+   4  George W Bush: 0.635
+   5  George W Bush: 0.881
+   6  George W Bush: 0.862
+   7  George W Bush: 0.885
+   8  George W Bush: 0.864
+   9  George W Bush: 0.706
+  10  George W Bush: 0.466
+  11  George W Bush: 0.535
+  12  George W Bush: 0.884
+  13  George W Bush: 0.721
+  14  George W Bush: 0.768
+  15  George W Bush: 0.460
+  16  George W Bush: 0.564
+  17  George W Bush: 0.775
+  18  George W Bush: 0.634
+  19  George W Bush: 0.712
+  20  George W Bush: 0.743
+  21  George W Bush: 0.490
+  22  George W Bush: 0.651
+  23  George W Bush: 0.654
+  24  George W Bush: 0.689
+  25  George W Bush: 0.743
+  26  George W Bush: 0.546
+  27  George W Bush: 0.703
+  28  George W Bush: 0.752
+  29  George W Bush: 0.787
+  30  George W Bush: 0.842
+  31  George W Bush: 0.808
+  32  George W Bush: 0.940
+  33  George W Bush: 0.595
+  34  Donald Rumsfeld: 0.499
+  35  George W Bush: 0.592
+  36  George W Bush: 0.746
+  37  George W Bush: 0.576
+  38  George W Bush: 0.650
+  39  George W Bush: 0.815
+  40  George W Bush: 0.445
+  41  George W Bush: 0.689
+  42  George W Bush: 0.793
+  43  George W Bush: 0.798
+  44  George W Bush: 0.613
+  45  George W Bush: 0.754
+  46  Donald Rumsfeld: 0.506
+  47  George W Bush: 0.787
+  48  George W Bush: 0.867
+  49  George W Bush: 0.844
+  50  George W Bush: 0.869
+  51  George W Bush: 0.630
+  52  George W Bush: 0.815
+  53  George W Bush: 0.674
+  54  George W Bush: 0.881
+  55  George W Bush: 0.847
+  56  George W Bush: 0.881
+  57  George W Bush: 0.779
+  58  George W Bush: 0.795
+  59  George W Bush: 0.884
+  60  George W Bush: 0.836
+  61  Donald Rumsfeld: 0.577
+  62  George W Bush: 0.857
+  63  George W Bush: 0.788
+  64  George W Bush: 0.569
+  65  George W Bush: 0.734
+  66  George W Bush: 0.908
+  67  George W Bush: 0.568
+  68  Donald Rumsfeld: 0.556
+  69  George W Bush: 0.698
+  70  George W Bush: 0.792
+  71  George W Bush: 0.513
+  72  George W Bush: 0.977
+  73  George W Bush: 0.830
+  74  George W Bush: 0.836
+  75  George W Bush: 0.780
+  76  George W Bush: 0.862
+  77  Donald Rumsfeld: 0.476
+  78  George W Bush: 0.787
+  79  George W Bush: 0.685
+  80  George W Bush: 0.505
+  81  George W Bush: 0.644
+  82  George W Bush: 0.763
+  83  George W Bush: 0.816
+  84  George W Bush: 0.576
+  85  George W Bush: 0.729
+  86  Donald Rumsfeld: 0.625
+  87  George W Bush: 0.731
+  88  George W Bush: 0.524
+  89  George W Bush: 0.699
+  90  George W Bush: 0.735
+  91  George W Bush: 0.826
+  92  George W Bush: 0.735
+  93  George W Bush: 0.800
+  94  George W Bush: 0.808
+  95  George W Bush: 0.454
+  96  George W Bush: 0.651
+  97  George W Bush: 0.565
+  98  George W Bush: 0.640
+  99  George W Bush: 0.635
+ 100  George W Bush: 0.574
+ 101  George W Bush: 0.569
+ 102  George W Bush: 0.807
+ 103  Donald Rumsfeld: 0.378
+ 104  George W Bush: 0.611
+ 105  George W Bush: 0.698
+ 106  George W Bush: 0.906
+ 107  George W Bush: 0.761
+ 108  George W Bush: 0.586
+ 109  George W Bush: 0.567
+ 110  George W Bush: 0.667
+ 111  George W Bush: 0.335
+ 112  George W Bush: 0.551
+ 113  George W Bush: 0.731
+ 114  George W Bush: 0.521
+ 115  George W Bush: 0.366
+ 116  Arnold Schwarzenegger: 0.302
+ 117  George W Bush: 0.533
+ 118  George W Bush: 0.532
+ 119  George W Bush: 0.306
+ 120  George W Bush: 0.517
+ 121  George W Bush: 0.395
+ 122  George W Bush: 0.460
+ 123  George W Bush: 0.562
+ 124  George W Bush: 0.643
+ 125  George W Bush: 0.617
+ 126  George W Bush: 0.701
+ 127  George W Bush: 0.354
+ 128  George W Bush: 0.498
+ 129  George W Bush: 0.429
+ 130  George W Bush: 0.451
+ 131  George W Bush: 0.353
+ 132  Ariel Sharon: 0.416
+ 133  George W Bush: 0.632
+ 134  George W Bush: 0.475
+ 135  George W Bush: 0.506
+ 136  Ariel Sharon: 0.462
+ 137  George W Bush: 0.472
+ 138  Ariel Sharon: 0.438
+ 139  George W Bush: 0.497
+ 140  George W Bush: 0.610
+ 141  George W Bush: 0.503
+ 142  George W Bush: 0.400
+ 143  George W Bush: 0.386
+ 144  George W Bush: 0.379
+ 145  George W Bush: 0.481
+ 146  George W Bush: 0.347
+ 147  George W Bush: 0.502
+ 148  Arnold Schwarzenegger: 0.517
+ 149  Arnold Schwarzenegger: 0.254
+ 150  George W Bush: 0.609
+ 151  George W Bush: 0.426
+ 152  George W Bush: 0.452
+ 153  George W Bush: 0.478
+ 154  George W Bush: 0.475
+ 155  George W Bush: 0.379
+ 156  George W Bush: 0.472
+ 157  George W Bush: 0.362
+ 158  George W Bush: 0.342
+ 159  Ariel Sharon: 0.378
+ 160  George W Bush: 0.348
+ 161  Ariel Sharon: 0.457
+ 162  George W Bush: 0.537
+ 163  George W Bush: 0.504
+ 164  George W Bush: 0.404
+ 165  George W Bush: 0.592
+ 166  George W Bush: 0.563
+ 167  George W Bush: 0.576
+ 168  George W Bush: 0.499
+ 169  George W Bush: 0.458
+ 170  George W Bush: 0.462
+ 171  George W Bush: 0.556
+ 172  George W Bush: 0.414
+ 173  George W Bush: 0.450
+ 174  George W Bush: 0.527
+ 175  Ariel Sharon: 0.398
+ 176  George W Bush: 0.454
+ 177  Arnold Schwarzenegger: 0.318
+ 178  George W Bush: 0.314
+ 179  George W Bush: 0.302
+ 180  George W Bush: 0.485
+ 181  Arnold Schwarzenegger: 0.497
+ 182  George W Bush: 0.369
+ 183  Arnold Schwarzenegger: 0.339
+ 184  Arnold Schwarzenegger: 0.321
+ 185  Arnold Schwarzenegger: 0.491
+ 186  George W Bush: 0.229
+ 187  George W Bush: 0.440
+ 188  Arnold Schwarzenegger: 0.589
+ 189  George W Bush: 0.524
+ 190  Arnold Schwarzenegger: 0.375
+ 191  Arnold Schwarzenegger: 0.389
+ 192  Arnold Schwarzenegger: 0.362
+ 193  Arnold Schwarzenegger: 0.385
+ 194  Arnold Schwarzenegger: 0.517
+ 195  Donald Rumsfeld: 0.379
+ 196  Donald Rumsfeld: 0.262
+ 197  Arnold Schwarzenegger: 0.354
+ 198  George W Bush: 0.481
+ 199  George W Bush: 0.290
+ 200  George W Bush: 0.326
+ 201  Arnold Schwarzenegger: 0.245
+ 202  Colin Powell: 0.268
+ 203  George W Bush: 0.429
+ 204  George W Bush: 0.438
+ 205  Arnold Schwarzenegger: 0.455
+ 206  George W Bush: 0.363
+ 207  George W Bush: 0.488
+ 208  George W Bush: 0.282
+ 209  George W Bush: 0.299
+ 210  Arnold Schwarzenegger: 0.276
+ 211  George W Bush: 0.591
+ 212  George W Bush: 0.338
+ 213  George W Bush: 0.470
+ 214  George W Bush: 0.363
+ 215  George W Bush: 0.424
+ 216  George W Bush: 0.350
+ 217  George W Bush: 0.365
+ 218  Arnold Schwarzenegger: 0.273
+ 219  Donald Rumsfeld: 0.295
+ 220  George W Bush: 0.514
+ 221  Ariel Sharon: 0.303
+ 222  George W Bush: 0.265
+ 223  Arnold Schwarzenegger: 0.533
+ 224  Arnold Schwarzenegger: 0.429
+ 225  Arnold Schwarzenegger: 0.463
+ 226  Colin Powell: 0.265
+ 227  Colin Powell: 0.315
+ 228  Donald Rumsfeld: 0.345
+ 229  Arnold Schwarzenegger: 0.371
+ 230  George W Bush: 0.400
+ 231  George W Bush: 0.426
+ 232  George W Bush: 0.644
+ 233  Colin Powell: 0.581
+ 234  Colin Powell: 0.701
+ 235  Colin Powell: 0.411
+ 236  George W Bush: 0.295
+ 237  George W Bush: 0.439
+ 238  George W Bush: 0.672
+ 239  Colin Powell: 0.436
+ 240  Colin Powell: 0.428
+ 241  Donald Rumsfeld: 0.341
+ 242  George W Bush: 0.466
+ 243  Donald Rumsfeld: 0.326
+ 244  George W Bush: 0.407
+ 245  George W Bush: 0.606
+ 246  Donald Rumsfeld: 0.542
+ 247  George W Bush: 0.617
+ 248  Colin Powell: 0.758
+ 249  Donald Rumsfeld: 0.520
+ 250  Donald Rumsfeld: 0.417
+ 251  Colin Powell: 0.480
+ 252  George W Bush: 0.509
+ 253  George W Bush: 0.551
+ 254  George W Bush: 0.380
+ 255  George W Bush: 0.490
+ 256  Colin Powell: 0.391
+ 257  George W Bush: 0.512
+ 258  George W Bush: 0.451
+ 259  Colin Powell: 0.507
+ 260  George W Bush: 0.622
+ 261  Donald Rumsfeld: 0.455
+ 262  George W Bush: 0.627
+ 263  Donald Rumsfeld: 0.605
+ 264  Donald Rumsfeld: 0.414
+ 265  Donald Rumsfeld: 0.702
+ 266  Donald Rumsfeld: 0.498
+ 267  George W Bush: 0.327
+ 268  George W Bush: 0.377
+ 269  Arnold Schwarzenegger: 0.429
+ 270  Donald Rumsfeld: 0.414
+ 271  Arnold Schwarzenegger: 0.334
+ 272  Donald Rumsfeld: 0.578
+ 273  Donald Rumsfeld: 0.483
+ 274  George W Bush: 0.615
+ 275  Donald Rumsfeld: 0.544
+ 276  George W Bush: 0.493
+ 277  Colin Powell: 0.452
+ 278  Donald Rumsfeld: 0.359
+ 279  Donald Rumsfeld: 0.439
+ 280  George W Bush: 0.513
+ 281  George W Bush: 0.433
+ 282  Donald Rumsfeld: 0.713
+ 283  Donald Rumsfeld: 0.589
+ 284  Donald Rumsfeld: 0.474
+ 285  Donald Rumsfeld: 0.641
+ 286  George W Bush: 0.488
+ 287  Colin Powell: 0.494
+ 288  George W Bush: 0.262
+ 289  Colin Powell: 0.356
+ 290  Colin Powell: 0.490
+ 291  George W Bush: 0.605
+ 292  Donald Rumsfeld: 0.454
+ 293  Donald Rumsfeld: 0.510
+ 294  Donald Rumsfeld: 0.830
+ 295  Colin Powell: 0.293
+ 296  Donald Rumsfeld: 0.430
+ 297  Donald Rumsfeld: 0.419
+ 298  George W Bush: 0.541
+ 299  Donald Rumsfeld: 0.445
+ 300  George W Bush: 0.688
+ 301  George W Bush: 0.478
+ 302  Colin Powell: 0.373
+ 303  Colin Powell: 0.504
+ 304  George W Bush: 0.576
+ 305  Donald Rumsfeld: 0.487
+ 306  Colin Powell: 0.471
+ 307  Donald Rumsfeld: 0.776
+ 308  George W Bush: 0.346
+ 309  Colin Powell: 0.478
+ 310  George W Bush: 0.767
+ 311  George W Bush: 0.501
+ 312  Donald Rumsfeld: 0.312
+ 313  George W Bush: 0.405
+ 314  George W Bush: 0.758
+ 315  Colin Powell: 0.474
+ 316  Donald Rumsfeld: 0.517
+ 317  Donald Rumsfeld: 0.435
+ 318  Arnold Schwarzenegger: 0.327
+ 319  George W Bush: 0.521
+ 320  Colin Powell: 0.633
+ 321  Arnold Schwarzenegger: 0.422
+ 322  George W Bush: 0.624
+ 323  Donald Rumsfeld: 0.472
+ 324  Colin Powell: 0.473
+ 325  Colin Powell: 0.392
+ 326  Donald Rumsfeld: 0.420
+ 327  Colin Powell: 0.528
+ 328  George W Bush: 0.596
+ 329  George W Bush: 0.454
+ 330  Colin Powell: 0.580
+ 331  Donald Rumsfeld: 0.339
+ 332  George W Bush: 0.349
+ 333  Donald Rumsfeld: 0.362
+ 334  George W Bush: 0.471
+ 335  Colin Powell: 0.469
+ 336  Colin Powell: 0.376
+ 337  George W Bush: 0.399
+ 338  Colin Powell: 0.398
+ 339  George W Bush: 0.562
+ 340  Donald Rumsfeld: 0.456
+ 341  George W Bush: 0.334
+ 342  Colin Powell: 0.326
+ 343  Donald Rumsfeld: 0.396
+ 344  George W Bush: 0.360
+ 345  Colin Powell: 0.606
+ 346  Donald Rumsfeld: 0.538
+ 347  Colin Powell: 0.608
+ 348  Donald Rumsfeld: 0.636
+ 349  Donald Rumsfeld: 0.422
+ 350  George W Bush: 0.521
+ 351  George W Bush: 0.704
+ 352  George W Bush: 0.383
+ 353  Colin Powell: 0.404
+ 354  Donald Rumsfeld: 0.439
+ 355  George W Bush: 0.433
+ 356  Donald Rumsfeld: 0.348
+ 357  George W Bush: 0.699
+ 358  George W Bush: 0.379
+ 359  George W Bush: 0.689
+ 360  George W Bush: 0.387
+ 361  Donald Rumsfeld: 0.441
+ 362  George W Bush: 0.389
+ 363  George W Bush: 0.587
+ 364  George W Bush: 0.394
+ 365  George W Bush: 0.529
+ 366  Donald Rumsfeld: 0.349
+ 367  Colin Powell: 0.402
+ 368  George W Bush: 0.327
+ 369  Colin Powell: 0.371
+ 370  Donald Rumsfeld: 0.383
+ 371  George W Bush: 0.452
+ 372  Donald Rumsfeld: 0.478
+ 373  George W Bush: 0.389
+ 374  George W Bush: 0.711
+ 375  George W Bush: 0.435
+ 376  Donald Rumsfeld: 0.453
+ 377  Donald Rumsfeld: 0.334
+ 378  Donald Rumsfeld: 0.477
+ 379  Donald Rumsfeld: 0.483
+ 380  Arnold Schwarzenegger: 0.483
+ 381  Arnold Schwarzenegger: 0.417
+ 382  George W Bush: 0.328
+ 383  Arnold Schwarzenegger: 0.233
+ 384  Arnold Schwarzenegger: 0.418
+ 385  Arnold Schwarzenegger: 0.343
+ 386  Arnold Schwarzenegger: 0.520
+ 387  Arnold Schwarzenegger: 0.452
+ 388  Arnold Schwarzenegger: 0.358
+ 389  Arnold Schwarzenegger: 0.451
+ 390  Arnold Schwarzenegger: 0.402
+ 391  Donald Rumsfeld: 0.302
+ 392  Donald Rumsfeld: 0.510
+ 393  Donald Rumsfeld: 0.671
+ 394  George W Bush: 0.491
+ 395  Arnold Schwarzenegger: 0.301
+ 396  Donald Rumsfeld: 0.342
+ 397  Donald Rumsfeld: 0.330
+ 398  Arnold Schwarzenegger: 0.390
+ 399  Arnold Schwarzenegger: 0.371
+ 400  Arnold Schwarzenegger: 0.360
+ 401  Arnold Schwarzenegger: 0.424
+ 402  Arnold Schwarzenegger: 0.256
+ 403  Ariel Sharon: 0.310
+ 404  Arnold Schwarzenegger: 0.333
+ 405  Arnold Schwarzenegger: 0.539
+ 406  Donald Rumsfeld: 0.289
+ 407  Ariel Sharon: 0.264
+ 408  Donald Rumsfeld: 0.622
+ 409  Donald Rumsfeld: 0.297
+ 410  Arnold Schwarzenegger: 0.433
+ 411  Donald Rumsfeld: 0.401
+ 412  Arnold Schwarzenegger: 0.533
+ 413  Arnold Schwarzenegger: 0.541
+ 414  Donald Rumsfeld: 0.557
+ 415  Arnold Schwarzenegger: 0.442
+ 416  Arnold Schwarzenegger: 0.410
+ 417  Arnold Schwarzenegger: 0.363
+ 418  Arnold Schwarzenegger: 0.333
+ 419  Arnold Schwarzenegger: 0.420
+ 420  Donald Rumsfeld: 0.527
+ 421  Arnold Schwarzenegger: 0.424
+ 422  Donald Rumsfeld: 0.517
+ 423  Arnold Schwarzenegger: 0.360
+ 424  Arnold Schwarzenegger: 0.385
+Accuracy: 0.129
